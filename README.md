@@ -6,9 +6,6 @@ Este es mi **portafolio personal** construido con HTML, CSS y JS, mostrando secc
 
 - [Descripción del Proyecto](#descripción-del-proyecto)
 - [Características](#características)
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Recursos](#recursos)
 
 ## Descripción del Proyecto
 
