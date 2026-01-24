@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Personal Neon Website Frontend
 
 Welcome to the **Personal Neon Website Frontend** repository! This project is a vibrant and modern personal website showcasing various sections including a home page, education timeline, projects, testimonials, and a contact form.
@@ -62,3 +63,7 @@ Upload the contents of the personal-neon-website-frontend folder to your web ser
 
 
 
+=======
+# portafolio
+Portafolio Web Js Css Html
+>>>>>>> 5fd34e6ddeea9805716dabee51c5c775e0c34a7b
