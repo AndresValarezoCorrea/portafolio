@@ -1,69 +1,26 @@
-<<<<<<< HEAD
-# Personal Neon Website Frontend
+# Personal Neon Website Frontend – Andrés Valarezo
 
-Welcome to the **Personal Neon Website Frontend** repository! This project is a vibrant and modern personal website showcasing various sections including a home page, education timeline, projects, testimonials, and a contact form.
+Este es mi **portafolio personal** construido con HTML, CSS y JS, mostrando secciones como Home, Educación, Proyectos, Contacto y más, con un diseño moderno y estilo neon.
 
-## Table of Contents
+## Tabla de Contenidos
 
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Resources](#resources)
+- [Descripción del Proyecto](#descripción-del-proyecto)
+- [Características](#características)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Recursos](#recursos)
 
-## Project Overview
+## Descripción del Proyecto
 
-The **Personal Neon Website Frontend** is designed to create a visually appealing and interactive personal website. It features a neon-themed design with dynamic sections that highlight various aspects of your professional and personal life.
+Este portafolio está diseñado para mostrar mi experiencia en **desarrollo web** y **ciberseguridad**. Incluye un diseño atractivo, responsivo y secciones interactivas que destacan mis habilidades, educación y proyectos relevantes.
 
-## Features
+## Características
 
-- **Dynamic Navigation**: A responsive navigation bar that adapts to different screen sizes.
-- **Home Section**: Introduction with animated text.
-- **Education Timeline**: A vertical timeline to showcase educational background.
-- **Projects**: Grid layout displaying various projects.
-- **Testimonials**: Section for client or peer testimonials with interactive elements.
-- **Contact Form**: A form to allow visitors to get in touch.
-- **Responsive Design**: Mobile-first design ensuring compatibility across various devices.
-
-## Installation
-
-To get started with this project locally, follow these steps:
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/kpanesar88/personal-neon-website-frontend.git
-
-
-Navigate to the Project Directory
-
-bash
-Copy code
-cd personal-neon-website-frontend
-Open the Project
-
-Open the index.html file in your browser or use a local server to view the website.
-
-## Usage
-Customizing Content
-
-Modify the HTML files in the src folder to update content and structure.
-Update styles in the styles.css file to adjust the design and appearance.
-Deploying the Website
-
-Upload the contents of the personal-neon-website-frontend folder to your web server or hosting service.
-
-## Resources
-
-- cat1.img : [Photo by Craig Adderley](https://www.pexels.com/photo/close-up-photo-of-black-cat-1715092/)
-- cat2.img : [Photo by Alexas Fotos](https://www.pexels.com/photo/orange-cat-on-focus-photography-2173872/)
-- dog.jpg :  [Photo by Khoa Võ](https://www.pexels.com/photo/adorable-little-puppy-of-purebred-dog-5321441/)
-- rabbit.jpg : [Photo by Alexas Fotos](https://www.pexels.com/photo/close-up-shot-of-a-rabbit-7408291/)
-- Insipration : [Youtube Video](https://www.youtube.com/watch?v=UqHILyzcULE)
-
-
-
-=======
-# portafolio
-Portafolio Web Js Css Html
->>>>>>> 5fd34e6ddeea9805716dabee51c5c775e0c34a7b
+- **Navegación Dinámica**: Barra de navegación responsiva que se adapta a distintos tamaños de pantalla.
+- **Sección Home**: Introducción con animaciones de texto.
+- **Educación y Certificaciones**: Timeline vertical con mi formación académica y cursos realizados.
+- **Proyectos**: Grid con mis proyectos de desarrollo web y laboratorios de ciberseguridad.
+- **Contacto**: Formulario para que los visitantes puedan escribirme.
+- **Responsive Design**: Compatible con móviles, tablets y escritorio.
+```bash
+git clone https://github.com/AndresValarezoCorrea/personal-neon-website-frontend.git
