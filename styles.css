@@ -529,6 +529,83 @@ span {
     line-height: 1.7;
 }
 
+/* Principal Project Card */
+.principal-project {
+    background: linear-gradient(135deg, #0f1c3f, #0175C2);
+    color: #ffffff;
+    padding: 60px 20px;
+}
+
+.principal-project h2.heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.principal-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    transition: transform 0.3s ease;
+}
+
+.principal-card:hover {
+    transform: translateY(-10px);
+}
+
+.principal-card-left,
+.principal-card-right {
+    flex: 1 1 400px;
+}
+
+.dashboard-img {
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.principal-card-right h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ffd700;
+}
+
+.principal-card-right p,
+.principal-card-right ul {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.principal-card-right ul li {
+    margin-bottom: 10px;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.principal-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #ffd700;
+    color: #0f1c3f;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.principal-btn:hover {
+    background: #ffea70;
+    transform: translateY(-3px);
+}
+
 .testimonials {
     background: var(--second-bg-color);
     padding: 100px 15px;

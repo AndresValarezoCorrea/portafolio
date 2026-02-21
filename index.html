@@ -7,11 +7,9 @@
     <title>Web Portfolio Andrés Valarezo</title>
     <link rel="stylesheet" href="styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
     <!-- Favicon / Logo -->
     <link rel="icon" type="image/png" href="images/logo.png">
 </head>
-
 
 <body>
     <header class="header">
@@ -23,13 +21,14 @@
         <nav class="navbar">
             <a href="#home">Home</a>
             <a href="#education">Education</a>
+            <a href="#principal">Principal Project</a>
             <a href="#development">Software Development</a>
-            <a href="#cybersecurity">Cybersecurity Projects</a>
-            <!-- <a href="#testimonials">Testimonials</a> -->
+            <a href="#cybersecurity">Cybersecurity Labs</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
 
+    <!-- Home Section -->
     <section class="home" id="home">
         <div class="home-content">
             <h1>Hi, I'm <span>Andrés Valarezo</span></h1>
@@ -37,8 +36,7 @@
             <p>
                 Innovating in web applications and endpoint services. With 2+ years of professional experience in
                 Laravel, developing accounting systems, multi-factor authentication, and encryption. Passionate about
-                Blue
-                Team practices and building labs like Mini EDR to detect real-world threats safely.
+                Blue Team practices and building labs like Mini EDR to detect real-world threats safely.
             </p>
 
             <div class="social-icons">
@@ -58,39 +56,32 @@
         </div>
     </section>
 
+    <!-- Education Section -->
     <section class="education" id="education">
         <h2 class="heading">Education & Certifications</h2>
         <div class="timeline-items">
-
-            <!-- Software Engineering -->
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-date">2019 – 2024</div>
                 <div class="timeline-content">
                     <h3>Bachelor in Software Engineering</h3>
                     <p>
-                        Universidad de las Fuerzas Armadas ESPE.
-                        Solid training in software development, databases,
+                        Universidad de las Fuerzas Armadas ESPE. Solid training in software development, databases,
                         application architecture, and engineering best practices.
                     </p>
                 </div>
             </div>
-
-            <!-- Master -->
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-date">2025 – Ongoing</div>
                 <div class="timeline-content">
                     <h3>Master’s in Cybersecurity</h3>
                     <p>
-                        Universidad del Pacífico.
-                        Focus on offensive and defensive cybersecurity, threat analysis,
+                        Universidad del Pacífico. Focus on offensive and defensive cybersecurity, threat analysis,
                         risk management, and infrastructure protection.
                     </p>
                 </div>
             </div>
-
-            <!-- Certifications -->
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-date">2023 – 2024</div>
@@ -106,17 +97,55 @@
                     </p>
                 </div>
             </div>
-
         </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Principal Cybersecurity Project Section -->
+    <section class="projects principal-project" id="principal">
+        <h2 class="heading">Principal Cybersecurity Project <span>Vulnerabliter</span></h2>
 
+        <div class="principal-card">
+            <div class="principal-card-left">
+                <img src="images/principal_project.png" alt="Vulnerabliter Dashboard Screenshot" class="dashboard-img">
+            </div>
+
+            <div class="principal-card-right">
+                <h3>Vulnerabliter – SaaS Vulnerability Detection & Protection System</h3>
+
+                <p><strong>Overview:</strong> Vulnerabliter is a cloud-based cybersecurity platform (SaaS) that
+                    detects, analyzes, and blocks vulnerabilities in real-time across enterprise systems. It delivers
+                    actionable insights, automated protection, and audit-ready reporting.</p>
+
+                <p><strong>Architecture:</strong> A central cloud dashboard connects to lightweight
+                    <code>agent.py</code>
+                    scripts installed on client servers. These agents monitor processes, detect misconfigurations and
+                    exploits,
+                    and send events to the dashboard for centralized control.
+                </p>
+
+                <p><strong>Key Features:</strong></p>
+                <ul>
+                    <li>Real-time vulnerability scanning and alerting.</li>
+                    <li>Automated threat blocking and remediation.</li>
+                    <li>Role-based access with audit logs and reporting.</li>
+                    <li>Interactive dashboard with visual risk scoring and notifications.</li>
+                    <li>Lightweight Python agent, cross-platform compatible.</li>
+                    <li>Cloud SaaS model for scalable deployment without local infrastructure.</li>
+                </ul>
+
+                <p><strong>Tech Stack:</strong> Python, FastAPI, PostgreSQL, Flutter Web (Dashboard), REST APIs, JWT.
+                </p>
+
+                <a href="https://vulnerabliter-web.onrender.com" target="_blank" class="btn principal-btn">View
+                    SAAS</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Development Projects Section -->
     <section class="projects" id="development">
         <h2 class="heading">Development <span>Projects</span></h2>
-
         <div class="projects-container">
-
             <!-- Project #1: Laravel -->
             <div class="projects-box">
                 <div class="projects-info">
@@ -130,7 +159,7 @@
                 </div>
             </div>
 
-            <!-- Development Project: GameJump -->
+            <!-- Project #2: GameJump -->
             <div class="projects-box">
                 <div class="projects-info">
                     <h4>GameJump – 2D Platformer Game (Unity)</h4>
@@ -143,7 +172,7 @@
                 </div>
             </div>
 
-            <!-- Development Project: Thesis Simulator -->
+            <!-- Project #3: Beacon Switching Simulator -->
             <div class="projects-box">
                 <div class="projects-info">
                     <h4>Beacon Switching Simulator – Thesis Project (Unity)</h4>
@@ -156,7 +185,7 @@
                 </div>
             </div>
 
-            <!-- Development Project: JARVIS AI -->
+            <!-- Project #4: JARVIS AI -->
             <div class="projects-box">
                 <div class="projects-info">
                     <h4>JARVIS AI Assistant – Python</h4>
@@ -168,17 +197,13 @@
                     <img src="images/project_4_development.png" alt="JARVIS AI Python">
                 </div>
             </div>
-
-
         </div>
     </section>
 
-
+    <!-- Cybersecurity Labs Section -->
     <section class="projects" id="cybersecurity">
         <h2 class="heading">Cybersecurity <span>Labs</span></h2>
-
         <div class="projects-container">
-
             <!-- Lab #1: Mini EDR -->
             <div class="projects-box">
                 <div class="projects-info">
@@ -224,7 +249,7 @@
                 </div>
             </div>
 
-            <!-- Cybersecurity Lab: Python Trojan -->
+            <!-- Lab #4: Python Trojan -->
             <div class="projects-box">
                 <div class="projects-info">
                     <h4>Python Trojan Payload – msfvenom</h4>
@@ -237,7 +262,7 @@
                 </div>
             </div>
 
-            <!-- Cybersecurity Lab: Android Trojan -->
+            <!-- Lab #5: Android Trojan -->
             <div class="projects-box">
                 <div class="projects-info">
                     <h4>Android Trojan – Evil-Droid & Metasploit</h4>
@@ -250,7 +275,7 @@
                 </div>
             </div>
 
-            <!-- Cybersecurity Lab: Post-Exploitation -->
+            <!-- Lab #6: Post-Exploitation -->
             <div class="projects-box">
                 <div class="projects-info">
                     <h4>Post-Exploitation Enumeration – Ubuntu 2024</h4>
@@ -262,33 +287,10 @@
                     <img src="images/project_6_cibersecurity.png" alt="Post Exploitation Ubuntu">
                 </div>
             </div>
-
-
         </div>
     </section>
 
-    <!-- <section class="testimonials" id="testimonials">
-        <div class="testimonials-box">
-            <h2 class="heading">Testimonials</h2>
-            <div class="wrapper">
-                <div class="testimonial-item">
-                    <img src="images/rabbit.jpg" alt="Testimonial from Jeffery">
-                    <h2>Jeffery</h2>
-                    <div class="rating">
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                    </div>
-                    <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum neque corrupti, pariatur itaque
-                        repellendus aut inventore. Alias commodi omnis numquam nesciunt voluptatibus obcaecati rerum
-                        velit, autem nemo et quae impedit."</p>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
+    <!-- Contact Section -->
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
         <div class="contact-form-container">
@@ -311,7 +313,7 @@
         </div>
     </section>
 
-
+    <!-- Footer -->
     <footer class="footer">
         <div class="social">
             <a href="https://www.linkedin.com/in/andres-gerardo-valarezo-correa-9a8b93292/" target="_blank"><i
@@ -324,7 +326,7 @@
             <li><a href="#">About Me</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#development">Software Development Projects</a></li>
-            <li><a href="#cybersecurity">Cybersecurity Projects</a></li>
+            <li><a href="#cybersecurity">Cybersecurity Labs</a></li>
             <li><a href="#contact">Contact Me</a></li>
         </ul>
     </footer>
